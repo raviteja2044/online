@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: url: 'https://github.com/raviteja2044/online.git'
+        git credentialsId:'https://github.com/raviteja2044/online.git'
     }
     
     stage('Run Docker Compose File')
